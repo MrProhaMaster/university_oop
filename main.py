@@ -2,6 +2,7 @@ from lr.lr4 import t1 as l1t1, t2 as l1t2, t3 as l1t3, t4 as l1t4
 from lr.lr5 import t2 as l2t2
 from lr.lr6 import t1 as l3t1, t2 as l3t2, t3 as l3t3, t4 as l3t4
 from lr.lr7 import lr7
+from lr.lr11 import lr11
 
 while True:
     in_ = input("Введите номер практического занятия (от 4 до 7), которое необходимо запустить (для выхода введите q): ")
@@ -53,6 +54,9 @@ while True:
 
     elif in_ == '7':
         lr7()
+
+    elif in_ == '11':
+        lr11()
 
     elif in_ == 'q':
         break
